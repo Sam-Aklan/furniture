@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme{
+  --text-txt-h1: 14rem;
+  --text-txt-h1--line-height: .85; 
+  --text-txt-h1--font-weight: 400; 
+
+  --text-txt-p: 13px;
+  --text-txt-p--line-height: .9; 
+  --text-txt-p--font-weight: 400; 
+
+  --text-txt-archive: 120px;
+  --text-txt-archive--line-height: .9; 
+  --text-txt-archive--font-weight: 300; 
+
+  --text-txt-arch-copy: 60px;
+  --text-txt-arch-copy--line-height: 1; 
+  --text-txt-arch-copy--font-weight: 400; 
+
+}
+
+
+body{
+  @apply w-screen xl:w-screen xl:max-w-[1440px] min-h-screen m-0 p-0 mx-auto bg-[#111] text-white overflow-x-hidden
+}
+#root {
+  width: 100%;
+}
+
+h1{
+  @apply text-txt-h1 uppercase
+}
+
+p{
+  @apply decoration-0 text-txt-p 
+}
+
+section{
+  @apply w-full h-screen
+}
+
+.intro{
+  @apply flex flex-col justify-center p-4
+}
+
+.header-row{
+  @apply flex items-center gap-[12em]
+}
+
+.header-row p{
+  @apply uppercase w-[20%]
+}
+
+.archive{
+  @apply flex flex-col justify-center items-center gap-[3em] text-center h-[200vh]
+}
+
+.archive h2{
+  @apply text-txt-archive text-[#4f4f4f]
+}
+
+.archive-header p{
+  @apply italic
+}
+
+.archive-info{
+  @apply w-full p-4 flex justify-around items-center text-center
+}
+
+.archive-info p{
+  @apply uppercase text-[#4f4f4f]
+}
+
+.outro{
+  @apply flex flex-col justify-between pt-[6em] pr-[2em] pl-[2em] pb-[2em]
+}
+
+.outro-copy h2{
+  @apply w-3/4 uppercase text-txt-arch-copy mb-[0.5em]
+}
+
+.outro-copy h2 .line{
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  overflow: hidden;
+  display: block;
+}
+
+
+.outro-copy h2 .line span{
+  position: relative;
+  will-change: transform;
+  display: flex;
+  transform: translateY(70px);
+}
+
+.outro-copy p span{
+
+}
+
+.footer{
+  @apply flex justify-between items-end
+}
