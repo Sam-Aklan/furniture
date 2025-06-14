@@ -1,25 +1,26 @@
 @import "tailwindcss";
 
 @theme{
-  --text-txt-h1: 14rem;
-  --text-txt-h1--line-height: .85; 
-  --text-txt-h1--font-weight: 400; 
+  --text-txt-h1: clamp(4rem, 10vw, 14rem);
+  --text-txt-h1--line-height: 0.85;
+  --text-txt-h1--font-weight: 400;
 
-  --text-txt-p: 13px;
-  --text-txt-p--line-height: .9; 
-  --text-txt-p--font-weight: 400; 
+  --text-txt-p: clamp(12px, 2vw, 16px);
+  --text-txt-p--line-height: 1.4;
+  --text-txt-p--font-weight: 400;
 
-  --text-txt-archive: 120px;
-  --text-txt-archive--line-height: .9; 
-  --text-txt-archive--font-weight: 300; 
+  --text-txt-archive: clamp(3rem, 8vw, 120px);
+  --text-txt-archive--line-height: 0.9;
+  --text-txt-archive--font-weight: 300;
 
-  --text-txt-arch-copy: 60px;
-  --text-txt-arch-copy--line-height: 1; 
-  --text-txt-arch-copy--font-weight: 400; 
+  --text-txt-arch-copy: clamp(1.5rem, 5vw, 60px);
+  --text-txt-arch-copy--line-height: 1;
+  --text-txt-arch-copy--font-weight: 400;
 
 }
-
-
+html{
+  overflow-x: hidden;
+}
 body{
   @apply w-screen xl:w-screen xl:max-w-[1440px] min-h-screen m-0 p-0 mx-auto bg-[#111] text-white overflow-x-hidden
 }
