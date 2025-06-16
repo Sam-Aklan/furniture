@@ -1,6 +1,21 @@
 
-# furniture
-react, react three fiber, lenis
+# 🛋️ Furniture Project  
+Built with:  
+- **React**  
+- **React Three Fiber** (for 3D rendering)  
+- **Lenis** (for smooth scrolling)  
+
+---
+
+## 🖼️ 3D Models  
+The following 3D models are used in this project:  
+
+| Model       | Preview Link | Creator         |  
+|-------------|--------------|-----------------|  
+| Black Chair | [View on Sketchfab](https://sketchfab.com/3d-models/black-chair-5fa6681f853b4819b155896169b15bb8) | brazeltonmaxie |  
+| Table       | [View on Sketchfab](https://sketchfab.com/3d-models/gaming-desk-ad667e57bcf346658390f63e130d0d2c) | artofaria      |  
+| Sofa        | [View on Sketchfab](https://sketchfab.com/3d-models/sofa-chair-0e8e009f398249b9bc13e8ff7078530a) | PatelDev       |  
+
 
 # React + TypeScript + Vite
 
