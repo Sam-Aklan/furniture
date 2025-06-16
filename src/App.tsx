@@ -32,9 +32,9 @@ function App() {
     <ReactLenis ref={lenisRef} root options={{lerp:.1,duration:1.5, smoothWheel:true, autoRaf:false}}>
 
 
-      <nav className='fixed top-0 left-0 w-screen xl:w-screen xl:max-w-[1440px] p-8 flex justify-center items-center'>
+      <nav className='fixed top-0 left-0 w-screen xl:w-screen xl:max-w-[1440px] p-8 flex justify-between items-center'>
         <p>oak<span>atelier</span></p>
-        <a href="#" className='uppercase'>contactus</a>
+        <a href="#" className='uppercase text-white no-underline'>contactus</a>
       </nav>
       <div className="model h-screen fixed z-2 m-0 top-0 left-1/4 w-full">
       <ScrollProvider scrollProgress={scrollYProgress}>

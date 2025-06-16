@@ -2,7 +2,7 @@
 
 @theme{
   --text-txt-h1: clamp(4rem, 10vw, 14rem);
-  --text-txt-h1--line-height: 0.85;
+  --text-txt-h1--line-height: 0.8;
   --text-txt-h1--font-weight: 400;
 
   --text-txt-p: clamp(12px, 2vw, 16px);
@@ -39,7 +39,10 @@ p{
 section{
   @apply w-full h-screen
 }
-
+nav a{
+  text-decoration: none;
+  color: white;
+}
 .intro{
   @apply flex flex-col justify-center p-4
 }
