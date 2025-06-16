@@ -17,6 +17,8 @@ The following 3D models are used in this project:
 | Sofa        | [View on Sketchfab](https://sketchfab.com/3d-models/sofa-chair-0e8e009f398249b9bc13e8ff7078530a) | PatelDev       |  
 
 
+##Preview
+https://github.com/user-attachments/assets/9239b39d-95e2-46e6-afa2-308f70b8a915
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
